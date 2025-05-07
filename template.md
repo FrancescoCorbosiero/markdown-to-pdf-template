@@ -11,7 +11,7 @@ Per accedere ai vari pannelli di controllo è necessario inserire le credenziali
 
 ## Aruba
 
-Aruba è il provider che permette di avere il proprio sito online(hosting) al dominio scelto in precedenza (es. nazionelombarda.org). Si occupa dunque della gestione del dominio e dell'hosting del tuo sito web.
+Aruba è il provider che permette di avere il proprio sito online (hosting) al dominio scelto in precedenza (es. nazionelombarda.org). Si occupa dunque della gestione del dominio e dell'hosting del tuo sito web.
 
 ### Pannello di controllo Hosting
 
@@ -19,9 +19,9 @@ Per effettuare l'accesso al pannello di controllo del provider hosting:
 
 URL Login: <https://admin.aruba.it/PannelloAdmin/Login.aspx>
 
-Username: 18076584@aruba.it
+Username: ****
 
-Password: Nazionelombarda84!
+Password: ****
 
 ![Pannello di controllo Aruba](media/pannello-aruba.PNG)
 
@@ -35,15 +35,15 @@ URL Login: <https://webmail.aruba.it/>
 
 Indirizzo: info@nazionelombarda.org
 
-Password: #y8-j9#LKmx-Zd+
+Password: ****
 
 Indirizzo: presidente@nazionelombarda.org
 
-Password: Temp2001!
+Password: ****
 
 Indirizzo: segretario@nazionelombarda.org
 
-Password: Temp2001!
+Password: ****
 
 ## WordPress
 
@@ -55,7 +55,7 @@ URL Login: <https://www.nazionelombarda.org/wp-admin>
 
 Username Admin: Amministratore
 
-Password: PaoloSizziNazioneLombarda1234
+Password: ****
 
 ![Pannello di controllo Wordpress](media/pannello-wordpress.PNG)
 
