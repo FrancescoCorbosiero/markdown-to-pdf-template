@@ -19,3 +19,7 @@
 5. Final notes
 
 ## Convert to PDF
+
+Under root dir run:
+
+pandoc template.md -o [pdf-name].pdf --css=style.css --pdf-engine=wkhtmltopdf --resource-path=.
