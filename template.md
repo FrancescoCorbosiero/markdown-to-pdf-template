@@ -11,7 +11,7 @@ Per accedere ai vari pannelli di controllo è necessario inserire le credenziali
 
 ## Aruba
 
-Aruba è il provider che permette di avere il proprio sito online(hosting) al dominio scelto in precedenza (es. nazionelombarda.org). Si occupa dunque della gestione del dominio e dell'hosting del tuo sito web.
+Aruba è il provider che permette di avere il proprio sito online (hosting) al dominio scelto in precedenza (es. nazionelombarda.org). Si occupa dunque della gestione del dominio e dell'hosting del tuo sito web.
 
 ### Pannello di controllo Hosting
 
