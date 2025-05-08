@@ -1,0 +1,102 @@
+{
+  "client_name": "Azienda XYZ S.r.l.",
+  "document_date": "08/05/2025",
+  "doc_version": "1.0",
+  
+  "site_objectives": "Il sito web è stato sviluppato con l'obiettivo principale di presentare i prodotti dell'azienda, generare contatti qualificati attraverso form dedicati e fornire informazioni dettagliate sui servizi offerti. Include anche una sezione blog per migliorare il posizionamento SEO e la condivisione di contenuti informativi.",
+  
+  "target_audience": "Il pubblico target principale è costituito da responsabili acquisti di aziende del settore manifatturiero, professionisti del settore e clienti finali interessati ai prodotti di alta gamma. La fascia d'età va principalmente dai 30 ai 55 anni, con competenze tecniche medio-alte.",
+  
+  "site_structure": "- Home Page\n- Chi Siamo\n- Prodotti (con sottopagine per categorie)\n- Servizi\n- Blog\n- Contatti\n- Area Riservata",
+  
+  "domain_provider": "Aruba",
+  "domain_panel_url": "https://adminpanel.aruba.it",
+  "domain_username": "utente_dominio",
+  "domain_password": "Fornita separatamente per motivi di sicurezza",
+  "domain_notes": "Il dominio viene rinnovato automaticamente con cadenza biennale. Prossima scadenza: 15/04/2027",
+  
+  "hosting_provider": "SiteGround",
+  "hosting_panel_url": "https://eu.siteground.com/login",
+  "hosting_username": "utente_hosting",
+  "hosting_password": "Fornita separatamente per motivi di sicurezza",
+  "hosting_type": "Hosting condiviso - Piano GrowBig",
+  "hosting_specs": "20GB SSD, ~100.000 visite mensili, backup giornalieri, CDN inclusa",
+  
+  "webmail_url": "https://webmail.aziendaxyz.it",
+  "email_accounts": "- info@aziendaxyz.it (Informazioni generali e richieste dal form contatti)\n- amministrazione@aziendaxyz.it (Fatturazione e contabilità)\n- supporto@aziendaxyz.it (Assistenza tecnica)",
+  "email_config_notes": "Tutte le caselle email sono configurate con protocollo IMAP. Il limite di invio è di 500 email giornaliere per casella. Server SMTP: smtp.aziendaxyz.it, Porta: 587, Sicurezza: STARTTLS",
+  
+  "wp_admin_url": "https://www.aziendaxyz.it/wp-admin",
+  "wp_admin_username": "admin_xyz",
+  "wp_admin_password": "Fornita separatamente per motivi di sicurezza",
+  "wp_other_users": "- editor_xyz (Editore - redazione@aziendaxyz.it)\n- marketing_xyz (Autore - marketing@aziendaxyz.it)",
+  
+  "menu_positions": "Header primario, Footer, Menu mobile",
+  
+  "backup_solution_details": "Il sito utilizza UpdraftPlus Premium per la gestione automatica dei backup.",
+  "backup_frequency": "Backup completi settimanali (ogni domenica alle 3:00), backup del database giornalieri",
+  "backup_storage": "Google Drive aziendale (account backup@aziendaxyz.it) e server locale",
+  "backup_content": "Database WordPress, file di configurazione, temi, plugin, uploads e altri contenuti",
+  "manual_backup_instructions": "1. Accedere a WordPress Admin\n2. Navigare a 'UpdraftPlus Backup'\n3. Cliccare su 'Backup Now'\n4. Selezionare i componenti da includere nel backup\n5. Cliccare su 'Backup Now' per avviare il processo",
+  
+  "theme_name": "Astra Pro",
+  "theme_version": "4.2.0",
+  "theme_type": "Premium con Child Theme personalizzato",
+  "theme_developer": "Brainstorm Force",
+  "theme_license": "Licenza Lifetime, acquistata il 10/08/2023",
+  "theme_customizations": "È stato creato un child theme personalizzato per implementare funzionalità specifiche senza modificare il tema principale.",
+  "custom_css_details": "CSS personalizzato per header sticky, sezione prodotti e form di contatto. File principale: custom-styles.css nel child theme.",
+  "modified_files": "functions.php (child theme), header.php (child theme), woocommerce/single-product.php (child theme)",
+  "custom_functionality": "Sistema di filtraggio prodotti personalizzato, integrazione con CRM aziendale, layout personalizzato per la pagina prodotti.",
+  "theme_options_path": "Aspetto > Personalizza e Astra > Opzioni tema",
+  "theme_main_options": "- Layout Header e Footer\n- Tipografia (font, dimensioni, pesi)\n- Colori principali e palette\n- Layout pagine e articoli\n- Impostazioni WooCommerce\n- Performance e ottimizzazioni",
+  
+  "essential_plugins": "1. **WooCommerce** (versione 8.2.1)\n   - Scopo: Gestione catalogo prodotti e funzionalità e-commerce\n   - Configurazione: Modalità catalogo attiva, preventivi abilitati, acquisto diretto disabilitato\n   - Licenza: Open source (gratuito)\n\n2. **Yoast SEO Premium** (versione 20.7)\n   - Scopo: Ottimizzazione SEO e gestione metadati\n   - Configurazione: Sitemap XML attiva, breadcrumb abilitati, integrazione con Google Search Console\n   - Licenza: Premium, rinnovo annuale (scadenza: 15/03/2026)\n\n3. **Wordfence Security** (versione 7.10.2)\n   - Scopo: Sicurezza del sito e protezione da malware\n   - Configurazione: Scansione programmata settimanale, protezione login avanzata, blocco geografico attivo\n   - Licenza: Premium, rinnovo annuale (scadenza: 22/06/2025)",
+  
+  "additional_plugins": "1. **Contact Form 7** (versione 5.8.4)\n   - Scopo: Gestione form di contatto\n   - Configurazione: Form principale, form richiesta preventivi, integrazione con reCAPTCHA v3\n\n2. **WPML** (versione 4.6.5)\n   - Scopo: Gestione multilingua (italiano, inglese, tedesco)\n   - Configurazione: Traduzione completa interfaccia, contenuti e URL\n   - Licenza: Premium, rinnovo annuale (scadenza: 10/01/2026)\n\n3. **WP Rocket** (versione 3.15.0)\n   - Scopo: Ottimizzazione performance e caching\n   - Configurazione: Cache pagine, minificazione CSS/JS, caricamento differito immagini\n   - Licenza: Premium, rinnovo annuale (scadenza: 05/08/2025)",
+  
+  "plugin_dependencies": "- WooCommerce richiede PHP 8.0+ e MySQL 5.7+\n- WPML e Yoast SEO hanno un'integrazione specifica attivata per la gestione SEO multilingua\n- Evitare di attivare altri plugin di caching insieme a WP Rocket per prevenire conflitti",
+  
+  "seo_plugin": "Yoast SEO Premium",
+  "seo_configuration": "- Titoli e meta description ottimizzati per tutte le pagine principali\n- Breadcrumb SEO attivati e integrati nel tema\n- Schema.org markup configurato per prodotti e articoli\n- Canonical URL impostati correttamente\n- Integrazione con Google Search Console attiva\n- Redirects 301 configurati per URL obsoleti",
+  
+  "gsc_account": "webmaster@aziendaxyz.it",
+  "gsc_verification_method": "Tag HTML nella sezione head",
+  "gsc_verification_date": "22/02/2025",
+  
+  "ga_account": "analytics@aziendaxyz.it",
+  "ga_tracking_id": "G-ABCDEF1234",
+  "ga_implementation": "Google Tag Manager (GTM-WXYZ123)",
+  
+  "sitemap_url": "https://www.aziendaxyz.it/sitemap_index.xml",
+  "sitemap_generator": "Yoast SEO Premium",
+  "sitemap_content": "Pagine, Post, Prodotti, Categorie prodotti, Tag",
+  "sitemap_frequency": "Aggiornamento automatico dopo modifiche ai contenuti",
+  
+  "cookie_solution": "CookieBot",
+  "cookie_configuration": "Banner cookie conforme GDPR con opzioni di consenso granulari. Blocco preventivo di script di terze parti fino all'accettazione esplicita.",
+  
+  "necessary_cookies": "- WordPress (wp-settings-*): Cookie essenziali per il funzionamento del sito\n- PHPSESSID: Gestione sessioni utente\n- cookiebot-consent: Memorizzazione preferenze consenso cookie",
+  
+  "analytics_cookies": "- _ga, _gid, _gat (Google Analytics): Tracciamento comportamento utente\n- _fbp (Facebook Pixel): Metriche conversione",
+  
+  "marketing_cookies": "- ads/ga-audiences (Google Ads): Remarketing\n- IDE (DoubleClick): Pubblicità mirata\n- fr (Facebook): Pubblicità mirata",
+  
+  "privacy_policy_url": "https://www.aziendaxyz.it/privacy-policy/",
+  "cookie_policy_url": "https://www.aziendaxyz.it/cookie-policy/",
+  "consent_form_details": "Banner cookie in primo accesso con 3 livelli di consenso (Necessari, Analitici, Marketing)",
+  "policies_update_date": "01/03/2025",
+  
+  "support_company": "Web Solutions Srl",
+  "support_email": "helpdesk@websolutions.it",
+  "support_phone": "+39 02 1234567",
+  "support_hours": "Lunedì-Venerdì 9:00-18:00, escluse festività nazionali",
+  "support_sla": "Prima risposta entro 4 ore lavorative, risoluzione problemi critici entro 24 ore lavorative",
+  
+  "initial_doc_date": "08/05/2025",
+  "initial_author": "Marco Rossi",
+  "changelog_entries": "| 15/05/2025 | 1.1 | Aggiornamento sezione plugin | Laura Bianchi |",
+  
+  "agency_name": "Web Solutions Srl",
+  "copyright_year": "2025"
+}
